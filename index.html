@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Animate CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body
+    class="font-main text-darkBlue h-screen flex items-center justify-center flex-col"
+  >
+    <!-- Container -->
+    <div
+      class="container mx-auto relative max-w-[375px] md:max-w-[800px] lg:max-w-[1120px]"
+    >
+      <!-- Tanya -->
+      <div
+        class="slide flex flex-col md:flex-row-reverse md:items-center animate__animated"
+      >
+        <!-- Image Box-->
+        <div class="relative md:w-[55%]">
+          <div
+            class="absolute z-[-20] bottom-[-30px] left-0 right-0 m-auto md:bottom-[-48px] md:right-[-28px]"
+          >
+            <img src="./images/pattern-bg.svg" alt="" class="w-full" />
+          </div>
+          <img
+            src="./images/image-tanya.jpg"
+            alt=""
+            class="w-[280px] mx-auto shadow-xl rounded-md lg:w-[500px]"
+          />
+        </div>
+        <!-- Content Box -->
+        <div
+          class="relative text-xl p-2 text-center mt-20 md:w-[60%] md:text-left lg:absolute lg:left-0"
+        >
+          <img
+            src="./images/pattern-quotes.svg"
+            alt=""
+            class="absolute right-0 left-0 m-auto w-[70px] top-[-20px] md:w-[120px] md:m-0 md:left-[105px] md:top-[-60px]"
+          />
+          <p class="font-light lg:text-[32px] lg:leading-[2.75rem]">
+            “ I've been interested in coding for a while but never taken the
+            jump, until now. I couldn't recommend this course enough. I'm now in
+            the job of my dreams and so excited about the future. ”
+          </p>
+          <div class="mt-8 md:flex md:items-center md:space-x-3">
+            <p class="font-bold text-lg lg:text-xl">Tanya Sinclair</p>
+            <span class="text-base text-grayishBlue lg:text-xl"
+              >UX Engineer</span
+            >
+          </div>
+        </div>
+      </div>
+      <!-- John -->
+      <div
+        class="slide hidden flex-col md:flex-row-reverse md:items-center animate__animated"
+      >
+        <!-- Image Box-->
+        <div class="relative md:w-[55%]">
+          <div
+            class="absolute z-[-20] bottom-[-30px] left-0 right-0 m-auto md:bottom-[-48px] md:right-[-28px]"
+          >
+            <img src="./images/pattern-bg.svg" alt="" class="w-full" />
+          </div>
+          <img
+            src="./images/image-john.jpg"
+            alt=""
+            class="w-[280px] mx-auto shadow-xl rounded-md lg:w-[500px]"
+          />
+        </div>
+        <!-- Content Box -->
+        <div
+          class="relative text-xl p-2 text-center mt-20 md:w-[60%] md:text-left lg:absolute lg:left-0"
+        >
+          <img
+            src="./images/pattern-quotes.svg"
+            alt=""
+            class="absolute right-0 left-0 m-auto w-[70px] top-[-20px] md:w-[120px] md:m-0 md:left-[105px] md:top-[-60px]"
+          />
+          <p class="font-light lg:text-[32px] lg:leading-[2.75rem]">
+            “ If you want to lay the best foundation possible I'd recommend
+            taking this course. The depth the instructors go into is incredible.
+            I now feel so confident about starting up as a professional
+            developer. ”
+          </p>
+          <div class="mt-8 md:flex md:items-center md:space-x-3">
+            <p class="font-bold text-lg lg:text-xl">John Tarkpor</p>
+            <span class="text-base text-grayishBlue lg:text-xl"
+              >Junior Front-end Developer</span
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Buttons -->
+      <div
+        class="absolute p-3 bg-white shadow-md left-0 right-0 top-64 m-auto rounded-full w-[80px] flex justify-between md:left-72 lg:mt-56 lg:left-[15rem] lg:w-[110px] lg:p-5"
+      >
+        <button
+          class="btn btn-previous cursor-pointer hover:scale-125 transition"
+        >
+          <img src="./images/icon-prev.svg" alt="" />
+        </button>
+        <button class="btn btn-next cursor-pointer hover:scale-125 transition">
+          <img src="./images/icon-next.svg" alt="" />
+        </button>
+      </div>
+    </div>
+    <script src="srcipt.js"></script>
+  </body>
+</html>
