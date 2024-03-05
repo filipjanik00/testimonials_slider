@@ -20,8 +20,8 @@ This is a solution to the [Coding bootcamp testimonials slider challenge on Fron
 
 ### Links
 
-- Solution URL: [Frontend Mentor IO Solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-4thGx7DsIJ)
-- Live Site URL: [Hosted on GitHub Pages](https://filipjanik00.github.io/stats-preview-card-component-main/)
+- Solution URL: [Frontend Mentor IO Solution](https://www.frontendmentor.io/solutions/testimonials-slider-using-vanillajs-and-tailwindcss-qSsSEkAC9p)
+- Live Site URL: [Hosted on GitHub Pages](https://filipjanik00.github.io/testimonials_slider/)
 
 ## My process
 
